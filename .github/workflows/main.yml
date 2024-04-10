@@ -36,6 +36,7 @@ jobs:
 
   build-backend:
 
+    needs: build-frontend
     runs-on: ubuntu-latest
 
     steps:
